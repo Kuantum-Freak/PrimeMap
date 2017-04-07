@@ -20,11 +20,11 @@ Run the excutable with these parameters:
 | -p        | 000000  | Use this argument to specify prime color on the bitmap (HEX format)      |
 | -b        | FFFFFF  | Use this argument to specify background color on the bitmap (HEX format) |
 
-Usage:   .\\PrimeMap.exe [-t <threads>] [-e <end>] [-o] [-d] [[-gbc] | [-p <HEX CODE>] [-b <HEX CODE>]]
+Usage:   `.\\PrimeMap.exe [-t <threads>] [-e <end>] [-o] [-d] [[-gbc] | [-p <HEX CODE>] [-b <HEX CODE>]]`
 
-Example: .\\PrimeMap.exe -t 7 -e 500000 -o -d -gbc
+Example: `.\\PrimeMap.exe -t 7 -e 500000 -o -d -gbc`
 
-Example: .\\PrimeMap.exe -t 7 -e 500000 -o -p 010101 -d 245 12 155
+Example: `.\\PrimeMap.exe -t 7 -e 500000 -o -p 010101 -d 245 12 155`
   
 ## Contributing
 

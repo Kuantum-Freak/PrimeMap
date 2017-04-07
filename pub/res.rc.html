@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #F8F8F8;
+}
+.sc0 {
+}
+.sc1 {
+	color: #1E9AE0;
+}
+.sc4 {
+	color: #FF3A83;
+}
+.sc5 {
+	color: #F6F080;
+}
+.sc6 {
+	color: #55E439;
+}
+.sc9 {
+	color: #FFAA00;
+}
+.sc10 {
+	color: #FFAA00;
+}
+.sc11 {
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #0B161D; "><span class="sc1">/* 
+ * Copyright (c) The Gupta Empire - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ *
+ * Written by Aryan Gupta &lt;me@theguptaempire.net&gt;, February 2017
+ * 
+ * =============================================================================
+ * @author Aryan Gupta
+ * @project Prime Map
+ * @title Resource File
+ * @date 2017-02-11 (YYYY-MM-DD)
+ * @fversion 2.0.1
+ * @description Finds prime numbers and outputs a bitmap displaying the primes
+ * =============================================================================
+ */</span><span class="sc0">
+ 
+</span><span class="sc9">#include "info.h"
+</span><span class="sc0">
+</span><span class="sc11">MAIN</span><span class="sc0"> </span><span class="sc5">ICON</span><span class="sc0"> </span><span class="sc11">R_MAINICON</span><span class="sc0">
+
+</span><span class="sc4">1</span><span class="sc0"> </span><span class="sc5">VERSIONINFO</span><span class="sc0">
+</span><span class="sc11">FILEVERSION</span><span class="sc0">     </span><span class="sc4">1</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc0">
+</span><span class="sc11">PRODUCTVERSION</span><span class="sc0">  </span><span class="sc4">1</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc10">,</span><span class="sc4">0</span><span class="sc0">
+</span><span class="sc5">BEGIN</span><span class="sc0">
+    </span><span class="sc5">BLOCK</span><span class="sc0"> </span><span class="sc6">"StringFileInfo"</span><span class="sc0">
+    </span><span class="sc5">BEGIN</span><span class="sc0">
+        </span><span class="sc5">BLOCK</span><span class="sc0"> </span><span class="sc6">"080904E4"</span><span class="sc0">
+        </span><span class="sc5">BEGIN</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"ProductName"</span><span class="sc10">,</span><span class="sc0">        </span><span class="sc11">R_PROJNAME</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"InternalName"</span><span class="sc10">,</span><span class="sc0">       </span><span class="sc11">R_PRGMNAME</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"ProductVersion"</span><span class="sc10">,</span><span class="sc0">     </span><span class="sc11">R_PVERSION</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"CompanyName"</span><span class="sc10">,</span><span class="sc0">        </span><span class="sc11">R_COMPANY</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"FileDescription"</span><span class="sc10">,</span><span class="sc0">    </span><span class="sc11">R_DESCRIPTION</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"LegalCopyright"</span><span class="sc10">,</span><span class="sc0">     </span><span class="sc11">R_COPYRIGHT</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"OriginalFilename"</span><span class="sc10">,</span><span class="sc0">   </span><span class="sc11">R_ORGFILENAME</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"FileVersion"</span><span class="sc10">,</span><span class="sc0">        </span><span class="sc11">R_FVERSION</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"Comments"</span><span class="sc10">,</span><span class="sc0">           </span><span class="sc11">R_COMMENTS</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"LegalTrademarks"</span><span class="sc10">,</span><span class="sc0">    </span><span class="sc11">R_LEGALTRDMKS</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"PrivateBuild"</span><span class="sc10">,</span><span class="sc0">       </span><span class="sc11">R_PRIVATEBUILD</span><span class="sc0">
+            </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"SpecialBuild"</span><span class="sc10">,</span><span class="sc0">       </span><span class="sc11">R_SPECIALBUILD</span><span class="sc0">
+        </span><span class="sc5">END</span><span class="sc0">
+    </span><span class="sc5">END</span><span class="sc0">
+
+    </span><span class="sc5">BLOCK</span><span class="sc0"> </span><span class="sc6">"VarFileInfo"</span><span class="sc0">
+    </span><span class="sc5">BEGIN</span><span class="sc0">
+        </span><span class="sc5">VALUE</span><span class="sc0"> </span><span class="sc6">"Translation"</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc4">0x809</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc4">1252</span><span class="sc0">
+    </span><span class="sc5">END</span><span class="sc0">
+</span><span class="sc5">END</span><span class="sc0">
+</span></div></body>
+</html>

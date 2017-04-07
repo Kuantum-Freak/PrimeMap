@@ -1,0 +1,12 @@
+[agupta40@lxs-compute2 test]$ a.out -t 64 -e 100000000 -o -gbc
+
+Prime Map v2.4.3 by Aryan Gupta
+Copyright (c) 2017 The Gupta Empire - All Rights Reserved
+The Gupta Empire - http://theguptaempire.net
+
+
+5761455 primes found between 2 and 100000000 using 64 cores in 13881.5 seconds.
+
+making file: 10000x10000GB.bmp
+Created Bitmap: "10000x10000GB.bmp"
+

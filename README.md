@@ -9,6 +9,7 @@ Please use `<make> .\bin\make.exe` to compile the program. You can also use `<ma
 ## Usage
 
 Run the excutable with these parameters:
+
 | Parameter | Default |                                                                          |
 |-----------|---------|--------------------------------------------------------------------------|
 | -t        | 4       | Use this argument to specify number of threads                           |

@@ -1,6 +1,6 @@
 # Prime Map
 
-A simple multi-threaded program that finds primes and sores them in a cool looking bitmap
+A simple multi-threaded program that finds primes and stores them in a cool looking bitmap
 
 ## Installation
 

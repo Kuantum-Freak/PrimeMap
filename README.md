@@ -1,6 +1,6 @@
-# Project Name
+# Prime Map
 
-Prime Map
+A simple multi-threaded program that finds primes and sores them in a cool looking bitmap
 
 ## Installation
 

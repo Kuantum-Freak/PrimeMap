@@ -177,7 +177,7 @@ std::string createBitMap() {
 	
 	std::string name;
 	std::stringstream ss;
-	ss << ".\\bmp\\" << w << " x " << w << ((colorCode != 0)? (colorCode == 1)? " GB":" OC":" BW") <<".bmp"; // name of the file
+	ss << "..\\bmp\\" << w << " x " << w << ((colorCode != 0)? (colorCode == 1)? " GB":" OC":" BW") <<".bmp"; // name of the file
 	name = ss.str();
 	
 	ss.str(std::string()); // reset string stream

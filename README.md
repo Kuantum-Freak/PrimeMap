@@ -2,6 +2,8 @@
 
 A simple multi-threaded program that finds primes and stores them in a cool looking bitmap
 
+<p align="center"> <img src="bmp/512%20x%20512%20OC.png" alt="Drawing" width="512"/> </p>
+
 ## Installation
 
 Please use `<make> .\bin\make.exe` to compile the program. You can also use `<make> all`.
